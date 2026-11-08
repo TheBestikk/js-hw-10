@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new js #10</title>
+</head>
+<body>
+    <div id="box" style="width: 50px; height: 50px; background-color: blue; position: absolute; left: 0px; top: 100px;"></div>
+
+
+    <div id="game-area" style="text-align: center; margin-top: 20px;">
+        <button id="target-btn" style="padding: 15px 25px; font-size: 18px;">Натисни мене!</button>
+        <h2>Очки: <span id="score">0</span></h2>
+        <h3 id="timer-display">Залишилося часу: 10 сек</h3>
+    </div>
+
+
+    <div>
+        <label for="seconds-input">Введіть час у секундах:</label>
+        <input type="number" id="seconds-input" min="1">
+        <button id="start-btn">Старт</button>
+        <p id="status-message"></p>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
